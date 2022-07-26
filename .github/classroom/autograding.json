@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "ls",
+      "input": "abc",
+      "output": "xyz",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "time",
+      "input": "aaa",
+      "output": "bbb",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
